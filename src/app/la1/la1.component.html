@@ -1,0 +1,46 @@
+<p>la1 works!</p>
+<table>
+ <tr>
+ <td>
+ <label for="input1">Input1:</label>
+ </td>
+ <td>
+ <input name="input1" id="input1" value="{{input1Value | number: '1.0-2'}}" #input1>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label for="input2">Input2:</label>
+ </td>
+ <td>
+ <input name="input2" id="input2" value="{{input2Value | number: '1.0-2'}}" #input2>
+ </td>
+ </tr>
+ <tr>
+<td>
+<label for="result">Result:</label>
+</td>
+<td>
+<input name="result" id="result" value="{{resultValue | number: '1.0-2'}}" #result>
+</td>
+</tr>
+</table>
+<table>
+    <tr>
+        <td>
+        <button (click)="add(input1.value,input2.value)">+</button>
+        </td>
+        <td></td>
+        <td>
+        <button (click)="sub(input1.value,input2.value)">-</button>
+        </td>
+        <td></td>
+        <td>
+        <button (click)="mul(input1.value,input2.value)">*</button>
+        </td>
+        <td></td>
+        <td>
+        <button (click)="divi(input1.value,input2.value)">/</button>
+        </td>
+    </tr>
+</table>
