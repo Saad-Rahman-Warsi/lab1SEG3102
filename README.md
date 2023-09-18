@@ -1,3 +1,6 @@
+#Saad Rahman Warsi
+#300249227
+
 # Lab1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
